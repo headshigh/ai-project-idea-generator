@@ -2,9 +2,10 @@
   "hasSrc": true,
   "packages": [
     "drizzle",
-    "next-auth"
+    "next-auth",
+    "shadcn-ui"
   ],
-  "preferredPackageManager": "bun",
+  "preferredPackageManager": "npm",
   "rootPath": "src/",
   "driver": "pg",
   "provider": "neon",
