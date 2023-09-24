@@ -35,17 +35,17 @@ export const runtime="edge"
             role:"user",
             content:`Rules you must follow strictly: 1. Do not try to explain or say anything. Just return the project ideas in points without description as shown in the example. 2. If you can not fullfill the request or there is an error return the error as showcased in the example 3.The format of the response should be similar to as shown in the example)`
           },
-          // {
-          //   content:"Project ideas for React, node and Mongodb",
-          //   role:"user",
-          // },
-          // {
-          //   content:JSON.stringify({
-          //     message:" 1)Social Media Dashboard 2)Online Learning Management System.3)Task Scheduler and Reminder App 4) Blogging Platform 5) Real-time Chat Application 6) Weather Forecasting App 7)Personal Finance Tracker"}),
-          //     role:"assistant",
-          // }
+          {
+            content:"Project ideas for React, node and Mongodb",
+            role:"user",
+          },
+          {
+            content:JSON.stringify({
+              message:"[1)Social Media Dashboard, 2)Online Learning Management System,3)Task Scheduler and Reminder App,4) Blogging Platform ,5) Real-time Chat Application,6) Weather Forecasting App, 7)Personal Finance Tracker]"}),
+              role:"assistant",
+          }
         ],
-        max_tokens:100,
+        max_tokens:10,
         temperature:0.55,
         stream:true,
       })
