@@ -24,7 +24,6 @@ export async function OpenAIStream(payload: OpenAIStreamPayload) {
       stream: true,
     }),
   })
-
   const stream = new ReadableStream({
     async start(controller) {
       // callback
